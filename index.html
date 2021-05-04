@@ -1,10 +1,341 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Résumé</title>
+        <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+        <link rel="stylesheet" href="style.css">
+        <link 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+            rel="stylesheet"  type='text/css'>
+        <script src="animation.js"></script>
+    </head>
+    <body>
+        <main>
+            <article>
+                <div class="page" style="border-color: midnightblue;">
+                    <div class="stackable grid">
+                        <div class="row">
+                            <div class="three wide center aligned column">
+                                <div class="avatar-wrapper">
+                                    <object class="avatar" 
+                                            data="http://i.piccy.info/i9/494dfdd1a3d173a36525cb1cf0bc104e/1620123152/31914/1427547/queenElizabeth2_500.jpg" 
+                                            role="img" aria-label="My profile picture"></object>
+                                </div>
+                            </div>
+                            <div class="thirteen wide column">
+                                <div class="stackable grid">
+                                    <div class="sixteen wide column">
+                                        <h1 class="name">Elizabeth Alexandra Mary</h1>
+                                        <div class="job">Queen of United Kingdom</div>
+                                        <ul class="contacts">
+                                            <li>
+                                                <a href="https://facebook.com/TheBritishMonarchy" rel="author" class="facebook">
+                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                                                    <span>royalfamily</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/theroyalfamily" rel="author" class="facebook">
+                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                    <span>royalfamily</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/royalfamily" rel="author" class="facebook">
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                    <span>royalfamily</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sixteen wide mobile only column">
+                                        <div class="divider"></div>
+                                    </div>
+                                    <div class="sixteen wide column">
+                                        <h2>Résumé</h2>
+                                        <p>&mdash; My life is devoted to investigations into the unknown,
+                                            finding the answers to the mysteries of life and
+                                            training in new technologies.I am an analytical thinker,
+                                            capable of great concentration and theoretical insight.
+                                            Also I enjoy research and finding  practical solutions
+                                            to problems.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="sixteen wide column">
+                                <div class="fat divider"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ten wide column">
+                                <h3>Experience</h3>
+                                <h6>Recent</h6>
+                                <ul class="timeline">
+                                    <li>
+                                        <p><em>25<sup>th</sup>April 2013</em></p>
+                                        <p><strong><em>The Succession to the Crown Act. The Act replaced male-preference primogeniture
+                                                    with absolute primogeniture for those in the line of succession born after
+                                                    28 October 2011, which means the eldest child, regardless of sex, precedes any siblings</em></strong></p>
+                                    </li>
+                                    <li>
+                                        <p><em>1999</em></p>
+                                        <p><strong><em>I open the newly-created National Assembly for Wales and the Scottish Parliament.</em></strong></p>
+                                    </li>
+
+                                    <li>
+                                        <p><em>1982</em></p>
+                                        <p><strong><em>The Pope visits England, the first pope to do so in 450 years. I receive
+                                                    him in my capacity as the head of the Church of England.</em></strong></p>
+                                    </li>
+                                    <li>
+                                        <p><em>1957</em></p>
+                                        <p><strong><em>I visit New York and address the United Nations General Assembly. On
+                                                    the same tour, I visit Ottawa and open Parliament.
+                                                </em></strong></p>
+                                    </li>
+                                </ul>
+                                <h6>Back then</h6>
+                                <ul class="timeline">
+                                    <li>
+                                        <p><em>1945</em></p>
+                                        <p><strong><em>I was made a Subaltern in the Auxiliary Territorial Service, 
+                                                    and by the end of the war, reached the rank of Junior Commander. I became 
+                                                    a qualified driver and mechanic and drived a military truck.</em></strong></p>
+                                    </li>
+                                    <li>
+                                        <p><em>October 1940</em></p>
+                                        <p><strong><em>I deliver my first public speech on the BBC's Children's Hour 
+                                                    radio program, addressing children who had to be evacuated because of the war.</em></strong></p>
+                                    </li>
+
+                                </ul>
+                                <div id="peronalHolder">
+                                    <h3>Personal life</h3>
+                                    <p id="personalClickToSeeMore" class="clickToseeMore">
+                                        <em>Click on the section to see more...</em>
+                                    </p>
+                                    <ul id="personal" class="timeline">
+                                        <li>
+                                            <p><em>21<sup>th</sup>April 1926</em></p>
+                                            <p><strong><em>I was born to the Duke and Duchess of York.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>1936</em></p>
+                                            <p><strong><em> My father becomes King George VI, and I become first in line to the throne.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>20<sup>th</sup>November 1947</em></p>
+                                            <p><strong><em>I married Lieutenant Philip Mountbatten.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>14<sup>th</sup>November 1948</em></p>
+                                            <p><strong><em>I have my first child, Prince Charles.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>15<sup>th</sup>August 1950</em></p>
+                                            <p><strong><em>I have a daughter, Princess Anne.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>6<sup>th</sup>February 1952</em></p>
+                                            <p><strong><em>My father, King George VI, dies. I accede to the throne.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>2<sup>th</sup>June 1953</em></p>
+                                            <p><strong><em>My coronation. It is the first time television cameras are allowed inside 
+                                                        Westminster Abbey for a state function.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>19<sup>th</sup>February 1960</em></p>
+                                            <p><strong><em>I give birth to Prince Andrew, my third child</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>10<sup>th</sup>March 1964</em></p>
+                                            <p><strong><em>I give birth to Prince Edward, my fourth and last child.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>1<sup>th</sup>July 1969</em></p>
+                                            <p><strong><em>Charles is named the Prince of Wales and heir to the throne.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>14<sup>th</sup>September 1981</em></p>
+                                            <p><strong><em>Shots are fired as I participate in the annual Trooping 
+                                                        the Colour ceremony. It turns out that they were blanks, fired by a teenager.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>1992</em></p>
+                                            <p><strong><em>"Annus horribilus." Prince Andrew and his wife separate, Princess Anne divorces
+                                                        her husband, Prince Charles formally separates from his wife Diana, and a significant
+                                                        portion of Windsor Castle is destroyed by fire.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>9<sup>th</sup>September 2015</em></p>
+                                            <p><strong><em>I become the longest-reigning monarch.</em></strong></p>
+                                        </li>
+                                        <li>
+                                            <p><em>6<sup>th</sup>February 2017</em></p>
+                                            <p><strong><em>I celebrate my Sapphire Jubilee, marking 65 years since I ascended the throne.</em></strong></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3>Responsibilities at my last job</h3>
+                                <ul class="timeline">
+                                    <li>
+                                        <b>Head of State</b><br>
+                                        As Head of State, I go on official State visits abroad.
+                                        I also invite other world leaders to come to the United Kingdom. 
+                                    </li>
+                                    <li>
+                                        <b>Head of the Armed Forces</b><br>
+                                        I am the only person who can declare when the country is at war and
+                                        when war is over.
+                                    </li>
+                                    <li>
+                                        <b>Head of the Church of England</b><br>
+                                        I appoint archbishops and bishops on the advice of the Prime Minister.
+                                    </li>
+                                    <li>
+                                        <b>Government Duties</b><br>
+                                        Every day I receive documents and reports from the government ministers
+                                        and Commonwealth officials. They must all be read and signed by me.
+                                    </li>
+                                    <li>
+                                        <b>Represent the Nation</b><br>
+                                        I represent the nation at times of great celebration or sorrow.
+                                        For instance, I lay a wreath at Remembrance Day ceremony each year to 
+                                        honour the members  of the armed forces who have died fighting for our country.
+                                    </li>
+                                    <li>
+                                        <b>Visits</b><br>
+                                        I spend a huge amount of time travelling around the country 
+                                        visiting hospitals, schools, factories etc.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="six wide column">
+                                <section>
+                                    <h3>Languages</h3>
+                                    <p class="tags small">ENGLISH, FRENCH</p>
+                                </section>
+                                <section>
+                                    <h3>Skills</h3>
+                                    <p class="tags small">DIPLOMACY, OFFICIAL VISITS, CONCLUDE CONTRACTS,
+                                        MAINTAINING THE LIFECICLE OF PARLIAMENT, KEEPING MONARCHY POPULAR,
+                                        WORKING WITH DOCUMENTS
+                                    </p>
+                                </section>
+                                <section>
+                                    <h3>Character</h3>
+                                    <p class="tags small">EXPLORER,WELL-MANNERED, STRAIGHTFORWARD, DEVOTED, FUNNY, 
+                                        PEDANTIC, CONFIDENT, CONSISTENT, CHALLENGING</p>
+                                </section>
+                                <section>
+                                    <h3>Likes&#x1f603;</h3>
+                                    <ul>
+                                        <li>
+                                            <b>Animals</b><br>
+                                            For much of my life I was surrounded with dogs, mostly, corgis.
+                                            I also own an elephant, two giant turtles, a jaguar and a pair of sloths, 
+                                            every sturgeon, porpoise, whale and dolphin in the UK
+                                        </li>
+                                        <li>
+                                            <b>Being the Queen</b><br>
+                                            I am the longest reigning monarch ever in Britain
+                                        </li>
+                                        <li>
+                                            <b>Sports</b><br>
+                                            Horse riding, pigeon racing and football - I am an Arsenal supporter
+                                        </li>
+                                        <li>
+                                            <b>Quiet pastime</b><br>
+                                            I enjoy reading mysteries and working on crossword puzzles
+                                        </li>
+
+                                        <li><b>Family</b><br>
+                                            We usually have so much fun on both of my birthdays
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h3>Dislikes&#x1f61e;</h3>
+                                    <ul>
+                                        <li>
+                                            <b>“The Crown”</b>
+                                        </li>
+                                        <li>
+                                            <b>Wedges</b>
+                                        </li>
+                                        <li>
+                                            <b>Garlic and onions</b>
+                                        </li>
+                                        <li>
+                                            <b>the word “pregnant”</b>
+                                        </li>
+                                        <li>
+                                            <b>Meghan Markle’s Style</b>
+                                        </li>
+                                        <li>
+                                            <b>Rare Meat </b>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h3>Wants&#x1f97a;</h3>
+                                    <p class="tags small bulleted">
+                                        <span class="tag">MY FAMILY TO BE HAPPY, </span>
+                                        <span class="tag">MY NATION TO BE GRATE, </span>
+                                        <span class="tag">TO READ MORE, </span>
+                                        <span class="tag">TO LEARN, </span>
+                                        <span class="tag">TO HELP EVERYONE IN NEED</span>
+                                    </p>
+                                </section>
+                                <section>
+                                    <h3>Education</h3>
+                                    <ul class="timeline">
+                                        <li>
+                                            <div><em>Every day till 1936</em></div>
+                                            <div><strong>Home schooling</strong></div>
+                                        </li>
+                                        <li>
+                                            <div><em>1936</em></div>
+                                            <ul>
+                                                <li>
+                                                    <div><strong>Studying constitutional history and law with 
+                                                            Henry Marten, the vice provost of Eton College</strong></div>
+                                                </li>
+                                                <li>
+                                                    <div><strong>Lessons in religion from the Archbishop of Canterbury</strong></div>
+                                                </li>
+                                                <li>
+                                                    <div><strong>French</strong></div>
+                                                </li>
+                                                <li>
+                                                    <div><strong>German</strong></div>
+                                                </li>
+                                                <li>
+                                                    <div><strong>Music</strong></div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <!-- Articles -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </body>
+
+    <script type="text/javascript">
+        hideElement("personal");
+        assignListener("peronalHolder", function () {
+            hideOrShow("personal");
+            hideOrShow("personalClickToSeeMore");
+        });
+    </script>
 </html>
